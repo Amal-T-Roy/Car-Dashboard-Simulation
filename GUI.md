@@ -1,5 +1,5 @@
 # Car-Dashboard-Simulation
-Simulate a car dashboard in C and display the data using tkinter GUI in python.,The communication between the scripts is carried out with IPC with socketsus
+Simulate a car dashboard in C and display the data using tkinter GUI in python.The communication between the scripts is carried out with IPC with sockets
 
 
 # Tkinter
@@ -98,3 +98,23 @@ Please make sure to update tests as appropriate.
 ## License
 
 [GNU General Public License 2.0](https://choosealicense.com/licenses/mit/)
+
+## Usage
+
+### From terminal 1
+```bash
+./TEST
+```
+
+Enter the port number in the command line prompt
+
+### From terminal 2
+
+```bash
+python3 GUI.py -p <port number>
+```
+#### Preview of GUI
+
+![Sample Image](IMAGES/GUI.png)
+
+In the GUI,update the slider to update vehicle speed
